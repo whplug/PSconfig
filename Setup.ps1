@@ -10,4 +10,4 @@ function Invoke-KubectlRun {
     Invoke-Expression $command
 }
 
-Set-Alias -Name krun -Value Invoke-KubectlRun
+Set-Alias -Name kdr -Value Invoke-KubectlRun
